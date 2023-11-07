@@ -1,4 +1,4 @@
-# Function Input/Output Extra Practice
+# FUNCTION INPUT/OUTPUT PROBLEMS
 
 # This is an example of a function
 # In words, it takes in an input string, and if the string is "hello", the function returns "yayy"
@@ -8,6 +8,14 @@ def func(input: str) -> str:
     return "yayy"
   else:
     return "awww :("
+
+# Functions don't strictly NEED input and output types to be specified, but it's considered "good practice" to
+# The following will work the same and are both valid:
+def add_nums(a: int, b: int) -> int:
+  return a + b
+
+def add_nums2(a, b):
+  return a + b
 
 
 # Based on this code snippet, describe in words that this function takes in, and what it outputs
@@ -65,3 +73,14 @@ print(my_func(2, ['c', 'a'])) # false
 print(my_func(2, ['c', 'a', 'b'])) # false
 # my_func checks if there are *a* number of elements in *b* list that contain a 'c'
 # it does this by counting the number of elements in *b* that contain 'c', and then compares the counter to *a*
+
+
+# Fill in the types for this functions inputs and outputs
+def mystery_function(a: int, b: bool, c: str) -> str:
+  if a > 14 and not b:
+    return c.substring(1)
+  else:
+    return "oof"
+# modify the def mystery_function(...) line to look like: 
+# def mystery_function(a: __, b: __, c: __) -> __: 
+# fill in the blanks

@@ -1,4 +1,4 @@
-# Combination problems
+# COMBINATION PROBLEMS
 # These problems will be a mix of many concepts you've learned so far, all mixed together
 # For each exercise, unless explicitly asked, don't reuse the functions written for previous questions to answer
 # other questions
@@ -90,3 +90,38 @@ def count_grey_strings(lst):
 # proceed through the intersection
 def can_go(color: str) -> bool:
   return (color == "red") or (color == "yellow")
+
+
+# Write a function that takes a sentence as input and counts the number of vowels (a, e, i, o, u) in the sentence
+def count_vowels(sentence):
+  vowels = "aeiou"
+  count = 0
+  for char in sentence:
+    if char.lower() in vowels:
+      count += 1
+  return count
+
+
+# Write a function that returns the average of all numbers in a list
+def calculate_average(numbers):
+  num_elements = len(numbers)
+  if num_elements == 0:
+    return 0  # Handle the case when the input list is empty to avoid division by zero
+  total = sum(numbers)
+  average = total / num_elements
+  return average
+
+
+# Write a function that checks if at least half of the number of elements in a given list are even
+def is_half_elements_even(input_list):
+  total_elements = len(input_list)
+  
+  even_count = 0
+  for num in input_list:
+    if num % 2 == 0:
+      even_count += 1
+  
+  if even_count >= total_elements / 2:
+    return True
+  else:
+    return False
