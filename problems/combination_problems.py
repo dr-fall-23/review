@@ -1,4 +1,4 @@
-# Combination problems
+# COMBINATION PROBLEMS
 # These problems will be a mix of many concepts you've learned so far, all mixed together
 # For each exercise, unless explicitly asked, don't reuse the functions written for previous questions to answer
 # other questions
@@ -48,3 +48,12 @@
 
 # Write a function that takes in a string that is either "red", "yellow", or "green", and returns true if a car may
 # proceed through the intersection
+
+
+# Write a function that takes a sentence as input and counts the number of vowels (a, e, i, o, u) in the sentence
+
+
+# Write a function that returns the average of all numbers in a list
+
+
+# Write a function that checks if at least half of the number of elements in a given list are even
