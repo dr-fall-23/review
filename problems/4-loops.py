@@ -1,6 +1,10 @@
 # LOOPS PROBLEMS
 
-# SECTION 1: 
+# SECTION 1:
+# Example of a for loop
+list_name = [1,2,3,4,5]
+for variable_name in list_name:
+  print(variable_name)
 
 # Explain the purpose of a for loop in Python, and how it works
 
@@ -54,5 +58,13 @@ strings = ["never", "gonna", "give", "you", "up"]
 # * *
 # * * *
 # * * * *
-# * * * * * 
+# * * * * *
 # Hint: print("\n") will print a new line
+
+# Using the list of suits and the list of ranks, populate the deck with strings of every combination of suits and ranks list using a nested for loop
+
+# deck should be ["Ace Hearts", "2 Hearts", "3 Hearts"...]
+
+suits = ["Hearts", "Spades", "Diamonds", "Clubs"]
+ranks = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
+deck = []
