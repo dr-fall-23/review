@@ -37,7 +37,7 @@ smol_square = Square("red", 2)
 
 ''' 
 Problem 1.
-Would the following be good to define as objects?
+Would the following be good to define as classes?
 - a car                                 - yes
 - my favorite word: "platypus"          - no, this would be a string
 - how many times I've had a flat tire   - no, this would be an integer
@@ -45,7 +45,7 @@ Would the following be good to define as objects?
 - a penguin                             - yes
 - an exam                               - yes
 - my mom's name                         - no, this would be a string
-- my parents' wedding date              - no, this would be an instance of a date object, or alternatively a string
+- my parents' wedding date              - no, this would be an instance of a date class, or alternatively a string
 - a pet                                 - yes
 - a rectangle                           - yes
 - a shape                               - yes
@@ -56,7 +56,7 @@ Would the following be good to define as objects?
 Problem 2:
 Create a class called Person with attributes name and age. 
 Include a method called birthday that increments the age of the person by 1. 
-Instantiate ("create an instance of") an object of the class, set its initial values, and then call the birthday method.
+Instantiate ("create an instance of") an example of the class, set its initial values, and then call the birthday method.
 Create another method "same_name" that takes in a Person (use 'Person' as the type not just Person) and returns whether 
 they have the same name as this person.
 Create another instance of a Person, and then check if they have the same name using the first person's "same_name" method.

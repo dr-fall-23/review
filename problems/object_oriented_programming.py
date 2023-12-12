@@ -37,7 +37,7 @@ smol_square = Square("red", 2)
 
 ''' 
 Problem 1.
-Would the following be good to define as objects?
+Would the following be good to define as classes?
 - a car                                 -
 - my favorite word: "platypus"          - 
 - how many times I've had a flat tire   - 
@@ -52,11 +52,33 @@ Would the following be good to define as objects?
 '''
 
 
+# Problem 2:
+# Here is an example of a class:
+class Dog:
+    def __init__(self, name: str, owner_name: str, age: int, best_friend: 'Dog'):
+        self.name = name
+        self.owner_name = owner_name
+        self.age = age
+        self.best_friend = best_friend
+    def same_owner(self, other_dog: 'Dog'):
+        return self.owner_name == other_dog.owner_name
+
+# 1. Create two different dogs using the Dog class
+# 2. Fill in the definition of the "same_owner" method
+# 3. Check if the two dogs have the same owner
+# 4. Add a "best_friend" attribute (has a type Dog) to the Dog class
+# 5. Add a "mutual_besties" method to a Dog that takes in a Dog
+'''
+Write code for the following:
+- 
+'''
+
+
 '''
 Problem 2:
 Create a class called Person with attributes name and age. 
 Include a method called birthday that increments the age of the person by 1. 
-Instantiate ("create an instance of") an object of the class, set its initial values, and then call the birthday method.
+Instantiate ("create an instance of") an example of the class, set its initial values, and then call the birthday method.
 Create another method "same_name" that takes in a Person (use 'Person' as the type not just Person) and returns whether 
 they have the same name as this person.
 Create another instance of a Person, and then check if they have the same name using the first person's "same_name" method.
@@ -78,3 +100,7 @@ representing the lengths of each of its sides.
 Now create a "same_side_lengths" method that takes in another list of integers representing side lengths.
 Now use "same_side_lengths" in the "is_same_shape" method.
 '''
+
+
+
+# DIFFERENCE BETWEEN FUNCTION AND METHODS!!!
