@@ -3,17 +3,17 @@
 # SECTION 1: DEFINITIONS
 
 # In your own words, what is a number value in Python?
-# A number value in Python represents a numerical quantity. 
-# Python supports different types of number values, including integers (whole numbers) 
+# A number value in Python represents a numerical quantity.
+# Python supports different types of number values, including integers (whole numbers)
 # and floating-point numbers (decimal numbers).
 
 
 # In your own words, what is a boolean value in Python?
-# A boolean value in Python is a data type that can have one of two values: True or False. 
+# A boolean value in Python is a data type that can have one of two values: True or False.
 
 
 # In your own words, what is a string value in Python?
-# A string value in Python is a sequence of characters enclosed within quotes. 
+# A string value in Python is a sequence of characters enclosed within quotes.
 # Strings are used to represent text and are a versatile data type in Python.
 
 
@@ -111,3 +111,26 @@ fun_str = "This is a cool funky string!"
 # - Use the string length function to get the length of fun_str:          len(fun_str)
 # - What is the result of fun_str[5]?                                     'i'
 # - Use + to create a new string that is fun_str with ":)" at the end:    fun_str + ":)"
+
+
+#* SECTION 6: Dictionaries
+# Here is a dictionary that represents the ages of different people
+dict = {"A": 20, "B" : 25, "C" : 19}
+# To access value 'C'
+# in the dictionary 'dict', 'A', 'B', and 'C' are examples of _____
+#? Keys
+# in the dictionary 'dict', 20, 25, and 19 are examples of _____
+#? Values
+# Use the dictionary to print the value of 'A'
+print(dict["A"])
+
+
+# Create a dictionary called ages and add 3 keys that represent names of people
+# and 3 values that represent ages
+# (they don't have to be real people)
+
+ages = {"Joseph": 20, "Maria":21, "Marco":19}
+
+# On the line below, add a new key value pair to the 'ages' dictionary
+ages["Sam"] = 29
+\

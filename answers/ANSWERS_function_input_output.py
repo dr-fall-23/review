@@ -17,12 +17,19 @@ def add_nums(a: int, b: int) -> int:
 def add_nums2(a, b):
   return a + b
 
-
 # Based on this code snippet, describe in words that this function takes in, and what it outputs
 def household_size(date: str, address: str) -> int:
   ...
 # inputs: a date as a string and an address as a string. the output is an integer (the size)
 
+#? Describe the difference between func_a and func_b
+def func_a(input: str) -> str:
+  return input
+
+def func_b(input: str) -> None:
+  print(input)
+
+# func_a returns the input and func_b prints the input to the console
 
 # Write a function that takes in a string and returns that given string
 def parrot(x):
@@ -53,7 +60,7 @@ def outer_fun(a, b):
 
 res = outer_fun(5, 10)
 print(res)
-# 15. outer_fun will call inner_fun with c = 5 and d = 10. inner_fun(5, 10) is 15, so 
+# 15. outer_fun will call inner_fun with c = 5 and d = 10. inner_fun(5, 10) is 15, so
 # return inner_fun(a, b) will mean outer_fun returns 15
 
 
@@ -81,6 +88,6 @@ def mystery_function(a: int, b: bool, c: str) -> str:
     return c.substring(1)
   else:
     return "oof"
-# modify the def mystery_function(...) line to look like: 
-# def mystery_function(a: __, b: __, c: __) -> __: 
+# modify the def mystery_function(...) line to look like:
+# def mystery_function(a: __, b: __, c: __) -> __:
 # fill in the blanks

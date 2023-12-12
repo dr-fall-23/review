@@ -22,6 +22,14 @@ def add_nums2(a, b):
 def household_size(date: str, address: str) -> int:
   ...
 
+# Here are some more functions
+def func_a(input: str) -> str:
+  return input
+
+def func_b(input: str) -> None:
+  print(input)
+
+# Describe the difference between func_a and func_b
 
 # Write a function that takes in a string and returns that given string
 
@@ -60,6 +68,6 @@ def mystery_function(a, b, c):
     return c.substring(1)
   else:
     return "oof"
-# modify the def mystery_function(...) line to look like: 
-# def mystery_function(a: __, b: __, c: __) -> __: 
+# modify the def mystery_function(...) line to look like:
+# def mystery_function(a: __, b: __, c: __) -> __:
 # fill in the blanks
